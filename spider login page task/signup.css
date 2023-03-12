@@ -1,0 +1,52 @@
+
+
+.signup-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+  }
+  .form {
+    position: relative;
+    background-color: antiquewhite;
+    opacity: 1;
+    z-index: 1;
+    background:-o-repeating-linear-gradient(45deg, #2c662e, #2c662e 10px, #43A047 10px, #43A047 20px);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    border-radius: 10px; 
+   
+  }
+  .form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+   
+    width: 100%;
+    border: 0;
+    margin: 0 0 0;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #2b4dbd;
+    border-radius: 10px;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+
+  
+  .form button:hover{
+    background: #43A047;
+  }
+ 
